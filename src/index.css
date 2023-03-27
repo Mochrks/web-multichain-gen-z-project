@@ -28,8 +28,8 @@
 ::-webkit-scrollbar-thumb{
   background: linear-gradient(
     to bottom,
-    #9FEDF0,
-    #37BFD1
+    #20A8BE,
+    #C84CE9
   );
   border-radius: 50px;
 }
