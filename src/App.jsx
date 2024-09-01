@@ -24,7 +24,7 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    <div className="bg-secondary w-full z-[5]">
+    <div className="w-full z-[5]">
       <Partner />
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>

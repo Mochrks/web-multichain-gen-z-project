@@ -11,8 +11,11 @@ import {
 import { motion } from "framer-motion";
 
 const Download = () => (
-  <section
+  <motion.section
     id="pricing"
+    variants={fadeIn("up", "tween", 0.5, 2)}
+    initial="hidden"
+    whileInView="show"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-blue-dark-gradient rounded-[20px] box-shadow `}
   >
     <motion.div
@@ -21,12 +24,7 @@ const Download = () => (
       whileInView="show"
       className="flex-1 flex sm:flex-row flex-col "
     >
-      <motion.div
-        variants={fadeIn("left", "tween", 0.5, 2)}
-        initial="hidden"
-        whileInView="show"
-        className="flex flex-col"
-      >
+      <motion.div className="flex flex-col">
         <h2 className={styles.heading2}>Let’s try & join now!</h2>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -43,12 +41,7 @@ const Download = () => (
           <img src={google} alt="google" className="mt-10 mx-10" />
         </div>
       </motion.div>
-      <motion.div
-        variants={fadeIn("right", "tween", 0.5, 2)}
-        initial="hidden"
-        whileInView="show"
-        className="flex1 md:pl-[200px] pl-0"
-      >
+      <motion.div className="flex1 md:pl-[200px] pl-0">
         <img
           src={asetsdownload}
           alt="card"
@@ -56,7 +49,7 @@ const Download = () => (
         />
       </motion.div>
     </motion.div>
-  </section>
+  </motion.section>
 );
 
 export default Download;
