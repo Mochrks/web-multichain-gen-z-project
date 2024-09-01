@@ -1,14 +1,32 @@
-import styles from "../style";
+import styles from "../styles/style";
 import Button from "./Button";
 import { apple, asetsdownload, google } from "../assets";
+import {
+  textVariant,
+  slideIn,
+  fadeIn,
+  textVariant2,
+  staggerContainer,
+} from "../utils/motion.js";
+import { motion } from "framer-motion";
 
 const Download = () => (
   <section
     id="pricing"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-blue-dark-gradient rounded-[20px] box-shadow `}
   >
-    <div className="flex-1 flex sm:flex-row flex-col ">
-      <div className="flex flex-col">
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      className="flex-1 flex sm:flex-row flex-col "
+    >
+      <motion.div
+        variants={fadeIn("left", "tween", 0.5, 2)}
+        initial="hidden"
+        whileInView="show"
+        className="flex flex-col"
+      >
         <h2 className={styles.heading2}>Let’s try & join now!</h2>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -24,15 +42,20 @@ const Download = () => (
           <img src={apple} alt="apple" className="mt-10" />
           <img src={google} alt="google" className="mt-10 mx-10" />
         </div>
-      </div>
-      <div className="flex1 md:pl-[200px] pl-0">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("right", "tween", 0.5, 2)}
+        initial="hidden"
+        whileInView="show"
+        className="flex1 md:pl-[200px] pl-0"
+      >
         <img
           src={asetsdownload}
           alt="card"
-          className="w-[140%] sm:ml-16 ml-1 sm:mt-0 mt-0 sm:ml-10 ml-1"
+          className="w-[140%] sm:ml-16 ml-1 sm:mt-0 mt-0 "
         />
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   </section>
 );
 

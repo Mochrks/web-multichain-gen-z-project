@@ -1,4 +1,4 @@
-import {  facebook, instagram, linkedin, twitter } from "../assets";
+import { facebook, instagram, linkedin, twitter } from "../assets";
 
 export const navLinks = [
   {
@@ -18,7 +18,6 @@ export const navLinks = [
     title: "Pricing",
   },
 ];
-
 
 export const socialMedia = [
   {
@@ -42,4 +41,3 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
-

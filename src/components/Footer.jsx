@@ -1,5 +1,4 @@
-import styles from "../style";
-
+import styles from "../styles/style";
 import { socialMedia } from "../constants";
 
 const Footer = () => (

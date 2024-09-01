@@ -1,5 +1,5 @@
 import { marketplace } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style.js";
 import {
   textVariant,
   slideIn,

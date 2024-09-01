@@ -1,4 +1,4 @@
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style.js";
 import SeeMoreBtn from "./SeeMoreBtn";
 import {
   textVariant,

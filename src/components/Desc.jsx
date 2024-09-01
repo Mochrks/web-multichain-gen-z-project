@@ -1,5 +1,5 @@
 import { applications, infras, Security } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style.js";
 import {
   textVariant,
   slideIn,
@@ -23,7 +23,7 @@ const Desc = () => (
     >
       <motion.h2
         variants={fadeIn("down", "tween", 0.2, 1.5)}
-        className={`${styles.heading2} text-center tex-justify`}
+        className={`${styles.heading2} text-center `}
       >
         Blockchain technology is revolutionizing the way we conduct
         transactions, with its secure and transparent nature.
