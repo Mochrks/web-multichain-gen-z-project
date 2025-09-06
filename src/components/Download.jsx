@@ -1,13 +1,7 @@
 import styles from "../styles/style";
 import Button from "./Button";
 import { apple, asetsdownload, google } from "../assets";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { fadeIn, staggerContainer } from "../utils/motion.js";
 import { motion } from "framer-motion";
 
 const Download = () => (

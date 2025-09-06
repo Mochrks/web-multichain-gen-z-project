@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { seeMore } from "../assets";
 
 const SeeMoreBtn = ({ styles }) => (
@@ -8,4 +9,7 @@ const SeeMoreBtn = ({ styles }) => (
   />
 );
 
+SeeMoreBtn.prototype = {
+  styles: PropTypes.string,
+};
 export default SeeMoreBtn;

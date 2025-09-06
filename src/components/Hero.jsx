@@ -1,14 +1,8 @@
 import { motion } from "framer-motion";
 import styles from "../styles/style.js";
-import { nft, arrowLeft, arrowRight } from "../assets";
+import { nft, arrowLefts, arrowRights } from "../assets";
 import GetStarted from "./GetStarted";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { textVariant, fadeIn, staggerContainer } from "../utils/motion.js";
 
 const Hero = () => {
   return (
@@ -69,12 +63,12 @@ const Hero = () => {
           className=" z-[5] flex flex-row justify-end items-center w-full sm:my-10 sm:pr-20 pr-10 sm:pt-1 pt-10"
         >
           <img
-            src={arrowLeft}
+            src={arrowLefts}
             alt="arrowLeft"
             className="w-[50]  relative cursor-pointer"
           />
           <img
-            src={arrowRight}
+            src={arrowRights}
             alt="arrowLeft"
             className="w-[50]  relative cursor-pointer"
           />

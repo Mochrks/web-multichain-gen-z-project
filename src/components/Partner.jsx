@@ -1,20 +1,6 @@
 import styles, { layout } from "../styles/style";
-import {
-  airbnb,
-  binance,
-  dropbox,
-  coinbase,
-  ripple,
-  ada,
-  lite,
-} from "../assets";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { airbnb, binance, coinbase, ripple, ada, lite } from "../assets";
+import { fadeIn, staggerContainer } from "../utils/motion.js";
 import { motion } from "framer-motion";
 
 const Partner = () => (

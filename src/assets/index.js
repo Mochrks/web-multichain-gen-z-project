@@ -17,8 +17,8 @@ import facebook from "./svg/facebook.svg";
 import instagram from "./svg/instagram.svg";
 import linkedin from "./svg/linkedin.svg";
 import twitter from "./svg/twitter.svg";
-import arrowRight from "./svg/arrowRight.svg";
-import arrowLeft from "./svg/arrowLeft.svg";
+import arrowRights from "./svg/arrowRight.svg";
+import arrowLefts from "./svg/arrowLeft.svg";
 import akun from "./svg/akun.svg";
 import asetsdownload from "./svg/asetsdownload.svg";
 import ripple from "./svg/ripple.svg";
@@ -53,8 +53,8 @@ export {
   twitter,
   nft,
   btnstart,
-  arrowRight,
-  arrowLeft,
+  arrowRights,
+  arrowLefts,
   akun,
   asetsdownload,
   marketplace,

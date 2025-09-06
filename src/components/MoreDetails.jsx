@@ -1,12 +1,6 @@
 import styles, { layout } from "../styles/style.js";
 import SeeMoreBtn from "./SeeMoreBtn";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { fadeIn, staggerContainer } from "../utils/motion.js";
 import { motion } from "framer-motion";
 
 const MoreDetails = () => (

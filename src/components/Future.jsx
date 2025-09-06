@@ -1,12 +1,6 @@
 import { marketplace } from "../assets";
 import styles, { layout } from "../styles/style.js";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { fadeIn, staggerContainer } from "../utils/motion.js";
 import { motion } from "framer-motion";
 
 const Future = () => (

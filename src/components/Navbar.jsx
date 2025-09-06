@@ -1,16 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-  navVariants,
-} from "../utils/motion.js";
+import { fadeIn, navVariants } from "../utils/motion.js";
 
 import { close, menu, akun } from "../assets";
-import { navLinks } from "../constants";
+import { navLinks } from "../apis";
 
 const Navbar = () => {
   const [active, setActive] = useState("Index");
