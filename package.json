@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "framer-motion": "^7.10.3",
+    "gsap": "^3.14.2",
+    "lenis": "^1.3.17",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

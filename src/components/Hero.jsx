@@ -62,16 +62,20 @@ const Hero = () => {
           whileInView="show"
           className=" z-[5] flex flex-row justify-end items-center w-full sm:my-10 sm:pr-20 pr-10 sm:pt-1 pt-10"
         >
-          <img
-            src={arrowLefts}
-            alt="arrowLeft"
-            className="w-[50]  relative cursor-pointer"
-          />
-          <img
-            src={arrowRights}
-            alt="arrowLeft"
-            className="w-[50]  relative cursor-pointer"
-          />
+          <button type="button" className="focus:outline-none">
+            <img
+              src={arrowLefts}
+              alt="arrowLeft"
+              className="w-[50]  relative cursor-pointer hover:scale-110 transition-transform"
+            />
+          </button>
+          <button type="button" className="focus:outline-none ml-5">
+            <img
+              src={arrowRights}
+              alt="arrowRight"
+              className="w-[50]  relative cursor-pointer hover:scale-110 transition-transform"
+            />
+          </button>
         </motion.div>
 
         {/* gradient start */}

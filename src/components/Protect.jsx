@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Protect = () => (
   <section
-    id="about"
+    id="security"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col`}
   >
     <motion.div

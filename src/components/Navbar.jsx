@@ -70,7 +70,10 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[20px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-10" : "mb-6"}`}
-                onClick={() => setActive(nav.title)}
+                onClick={() => {
+                  setActive(nav.title);
+                  setToggle(false);
+                }}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
